@@ -1,0 +1,1364 @@
+<Return xmlns="http://www.irs.gov/efile" xmlns:efile="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile ../Return1120.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2016v4.2">
+  <ReturnData>
+      <IRS8975 documentId="IRS8975">
+        <Form8975ScheduleAAttachCnt referenceDocumentId="IRS8975SchA IRS8975SchAN1 IRS8975SchAN2 IRS8975SchAN3 IRS8975SchAN4 IRS8975SchAN5 IRS8975SchAN6 IRS8975SchAN7 IRS8975SchAN8 IRS8975SchAN9 IRS8975SchAN10 IRS8975SchAN11 IRS8975SchAN12 IRS8975SchAN13 IRS8975SchAN14 IRS8975SchAN15 IRS8975SchAN16 IRS8975SchAN17 IRS8975SchAN18 IRS8975SchAN19 IRS8975SchAN20 IRS8975SchAN21 IRS8975SchAN22 IRS8975SchAN23 IRS8975SchAN24 IRS8975SchAN25 IRS8975SchAN26 IRS8975SchAN27 IRS8975SchAN28 IRS8975SchAN29 IRS8975SchAN30 IRS8975SchAN31 IRS8975SchAN32 IRS8975SchAN33 IRS8975SchAN34 IRS8975SchAN35 IRS8975SchAN36 IRS8975SchAN37 IRS8975SchAN39 IRS8975SchAN40 IRS8975SchAN41">41</Form8975ScheduleAAttachCnt>
+        <EntityReportingRoleCd>ULT</EntityReportingRoleCd>
+                            <AdditionalInformationTxt>We are submitting this Country-by-Country (CbC) Report pursuant to the CbC reporting requirements of United States for the fiscal year beginning January 01, 2017 and ending December 31, 2017. Please note that this CbC report should be automatically exchanged with the tax authorities of the following jurisdictions only, based on having the required CbC reporting requirements, competent authority agreements, and exchange of information agreements in force as of the date the CbC report was prepared: Australia, Belgium, Brazil, Canada, Colombia, France, Germany, Greece, Ireland, Italy, Korea, Rep of, Mexico, Netherlands, New Zealand, Poland, Portugal, South Africa, Spain, Sweden, United Kingdom. All other jurisdictions listed in this CbC report are not entitled to CbC report through automatic exchange due to a lack of CbC requirements or are receiving the report through other means.These jurisdictions have not implemented CbC reporting requirements: Hong Kong, Panama, Philippines, Thailand, Turkey, Untd A Emirates, Venezuela. These jurisdictions have implemented CbC reporting requirements, but the requirements do not apply for the fiscal year covered by this report due to the effective date of the jurisdiction's requirements, the applicable group revenue threshold of the jurisdiction's requirements, or other exemption from reporting provided by the jurisdiction: Japan, Switzerland. These jurisdictions require a CbC report for the fiscal year covered by this report but do not have the required information exchange agreements and/or competent authority agreements in place for the automatic exchange of CbC reports with United States as of the date the CbC report was prepared: Argentina, Chile, China, India, Indonesia, Malaysia, Peru, Russia, Singapore, Taiwan, Vietnam.</AdditionalInformationTxt>
+                      </IRS8975>
+		<IRS8975ScheduleA documentId="IRS8975SchAN1">
+            <TaxJurisdictionCountryCd>AR</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>16217248</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>181470</RelatedRevenueAmt>
+    <TotalRevenueAmt>16398718</TotalRevenueAmt>
+    <ProfitOrLossAmt>-1455424</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>816375</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-335269</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>5424326</EarningsAmt>
+    <EmployeeCnt>27</EmployeeCnt>
+    <AssetsAmt>2328442</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>W R Grace Argentina SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>W R Grace Argentina sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+        <CBCAdditionalInfoGrp>
+                      </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN2">
+            <TaxJurisdictionCountryCd>AS</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>32842739</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>452336</RelatedRevenueAmt>
+    <TotalRevenueAmt>33295075</TotalRevenueAmt>
+    <ProfitOrLossAmt>4359051</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>493607</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>1649447</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>6906501</EarningsAmt>
+    <EmployeeCnt>45</EmployeeCnt>
+    <AssetsAmt>8107138</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Australia Pty Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Australia Pty Limited sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN3">
+            <TaxJurisdictionCountryCd>BE</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>9840466</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>16225326</RelatedRevenueAmt>
+    <TotalRevenueAmt>26065792</TotalRevenueAmt>
+    <ProfitOrLossAmt>4290934</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>1419875</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>1536993</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>9546671</EarningsAmt>
+    <EmployeeCnt>58</EmployeeCnt>
+    <AssetsAmt>3787905</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Contruction Chemicals NV (Belgium)</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies NV SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC506</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Construction Products NV</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Inverco Benelux NV</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN4">
+            <TaxJurisdictionCountryCd>BR</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>27449343</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>2298370</RelatedRevenueAmt>
+    <TotalRevenueAmt>29747713</TotalRevenueAmt>
+    <ProfitOrLossAmt>9263660</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>2848716</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>3640514</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-988570</EarningsAmt>
+    <EmployeeCnt>113</EmployeeCnt>
+    <AssetsAmt>10823469</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Grace Brasil Ltda</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>Grace Brasil Ltda sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN5">
+            <TaxJurisdictionCountryCd>CA</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>30592038</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>16424557</RelatedRevenueAmt>
+    <TotalRevenueAmt>47016595</TotalRevenueAmt>
+    <ProfitOrLossAmt>2904263</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>1658338</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>978507</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>14140474</EarningsAmt>
+    <EmployeeCnt>57</EmployeeCnt>
+    <AssetsAmt>5042419</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Canada Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN6">
+            <TaxJurisdictionCountryCd>CI</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>3651406</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>330834</RelatedRevenueAmt>
+    <TotalRevenueAmt>3982240</TotalRevenueAmt>
+    <ProfitOrLossAmt>-162725</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>68770</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>29692</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-367723</EarningsAmt>
+    <EmployeeCnt>12</EmployeeCnt>
+    <AssetsAmt>1429334</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Quimica Compania Limitada</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Quimica Compania Limitada sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN7">
+            <TaxJurisdictionCountryCd>CH</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>61330977</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>4869183</RelatedRevenueAmt>
+    <TotalRevenueAmt>66200160</TotalRevenueAmt>
+    <ProfitOrLossAmt>-2425694</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>152192</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-306021</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>12364802</EarningsAmt>
+    <EmployeeCnt>235</EmployeeCnt>
+    <AssetsAmt>19191477</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologes (China) Company Ltd - Beijing Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (China) Company Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (China) Company Limited Ezhou Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (China) Company Ltd-Chongqing Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (China) Company Ltd-Guangzhou Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (China) Company Ltd-Tianjin Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Applied Technologies (China) Company Limited and associated branches sold their Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN8">
+            <TaxJurisdictionCountryCd>CO</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>10711482</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>33929</RelatedRevenueAmt>
+    <TotalRevenueAmt>10745411</TotalRevenueAmt>
+    <ProfitOrLossAmt>385707</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>514609</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>205163</TaxesAccruedAmt>
+    <CapitalAmt>-391</CapitalAmt>
+    <EarningsAmt>3206872</EarningsAmt>
+    <EmployeeCnt>17</EmployeeCnt>
+    <AssetsAmt>2193184</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Colombia SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Colombia SA sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN9">
+            <TaxJurisdictionCountryCd>FR</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>55685499</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>15405919</RelatedRevenueAmt>
+    <TotalRevenueAmt>71091418</TotalRevenueAmt>
+    <ProfitOrLossAmt>-2759911</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>1679021</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>886683</TaxesAccruedAmt>
+    <CapitalAmt>-2734411</CapitalAmt>
+    <EarningsAmt>13584549</EarningsAmt>
+    <EmployeeCnt>97</EmployeeCnt>
+    <AssetsAmt>10281789</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef France Sarl</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies France SAS</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373233</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Produits de Construction SAS</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Applied Technologies France SAS was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN10">
+            <TaxJurisdictionCountryCd>GM</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>36500449</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>9536124</RelatedRevenueAmt>
+    <TotalRevenueAmt>46036573</TotalRevenueAmt>
+    <ProfitOrLossAmt>125189795</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>1529546</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>21812</TaxesAccruedAmt>
+    <CapitalAmt>15999973</CapitalAmt>
+    <EarningsAmt>14389797</EarningsAmt>
+    <EmployeeCnt>84</EmployeeCnt>
+    <AssetsAmt>6214607</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Deutschland GmbH</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Holdings Germany GmbH</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Darex Germany GmbH</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373224</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Germany GmbH</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373231</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Darex Germany GmbH was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN11">
+            <TaxJurisdictionCountryCd>GR</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>0</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>17056</RelatedRevenueAmt>
+    <TotalRevenueAmt>17056</TotalRevenueAmt>
+    <ProfitOrLossAmt>-173740</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>124859</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>6827</TaxesAccruedAmt>
+    <CapitalAmt>163705</CapitalAmt>
+    <EarningsAmt>130036</EarningsAmt>
+    <EmployeeCnt>2</EmployeeCnt>
+    <AssetsAmt>-477</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Hellas LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC506</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Applied Technologies Hellas LLC sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN12">
+            <TaxJurisdictionCountryCd>HK</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>25002937</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>457181</RelatedRevenueAmt>
+    <TotalRevenueAmt>25460118</TotalRevenueAmt>
+    <ProfitOrLossAmt>24227552</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>187759</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>230432</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>5005903</EarningsAmt>
+    <EmployeeCnt>35</EmployeeCnt>
+    <AssetsAmt>3054641</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Construction Chem</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP (Hong Kong) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP (Hong Kong) Limited sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN13">
+            <TaxJurisdictionCountryCd>IN</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>9880675</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>176479</RelatedRevenueAmt>
+    <TotalRevenueAmt>10057154</TotalRevenueAmt>
+    <ProfitOrLossAmt>-1518600</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>-202</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-415635</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-7238235</EarningsAmt>
+    <EmployeeCnt>45</EmployeeCnt>
+    <AssetsAmt>4111387</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (India) Private Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Applied Technologies (India) Private Limited sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN14">
+            <TaxJurisdictionCountryCd>ID</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>11609383</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>871670</RelatedRevenueAmt>
+    <TotalRevenueAmt>12481053</TotalRevenueAmt>
+    <ProfitOrLossAmt>-794739</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>195548</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-45666</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>4679593</EarningsAmt>
+    <EmployeeCnt>31</EmployeeCnt>
+    <AssetsAmt>2489580</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>PT GCP Applied Technologies Indonesia</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>PT GCP Applied Technologies Indonesia sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN15">
+            <TaxJurisdictionCountryCd>EI</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>0</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>947046</RelatedRevenueAmt>
+    <TotalRevenueAmt>947046</TotalRevenueAmt>
+    <ProfitOrLossAmt>421477</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>54707</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-158174</EarningsAmt>
+    <EmployeeCnt>3</EmployeeCnt>
+    <AssetsAmt>-16150</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Products (Ireland) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC506</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN16">
+            <TaxJurisdictionCountryCd>IT</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>35665877</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>3139029</RelatedRevenueAmt>
+    <TotalRevenueAmt>38804906</TotalRevenueAmt>
+    <ProfitOrLossAmt>1245957</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>499313</TaxesAccruedAmt>
+    <CapitalAmt>-1517</CapitalAmt>
+    <EarningsAmt>3225627</EarningsAmt>
+    <EmployeeCnt>40</EmployeeCnt>
+    <AssetsAmt>4667938</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Italiana SpA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Italiana SpA sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN17">
+            <TaxJurisdictionCountryCd>JA</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>22678677</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>165424</RelatedRevenueAmt>
+    <TotalRevenueAmt>22844101</TotalRevenueAmt>
+    <ProfitOrLossAmt>61340323</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>2362058</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>2553329</TaxesAccruedAmt>
+    <CapitalAmt>8048597</CapitalAmt>
+    <EarningsAmt>10078599</EarningsAmt>
+    <EmployeeCnt>27</EmployeeCnt>
+    <AssetsAmt>4370500</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Holdings Japan GK</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Chemicals Kabushiki Kaisha</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Japan Kabushiki Kaisha</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Japan Kabushiki Kaisha was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN18">
+            <TaxJurisdictionCountryCd>KS</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>16523584</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>2249823</RelatedRevenueAmt>
+    <TotalRevenueAmt>18773407</TotalRevenueAmt>
+    <ProfitOrLossAmt>5376199</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>-13704</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>1863746</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>8916977</EarningsAmt>
+    <EmployeeCnt>30</EmployeeCnt>
+    <AssetsAmt>2322804</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Korea Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Korea Inc sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN19">
+            <TaxJurisdictionCountryCd>MY</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>17368336</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>96555</RelatedRevenueAmt>
+    <TotalRevenueAmt>17464891</TotalRevenueAmt>
+    <ProfitOrLossAmt>995691</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>445344</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>248599</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>6842747</EarningsAmt>
+    <EmployeeCnt>20</EmployeeCnt>
+    <AssetsAmt>2715446</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (Malaysia) Sendiran Berhad</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Applied Technologies (Malaysia) Sendiran Berhad sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN20">
+            <TaxJurisdictionCountryCd>MX</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>28802230</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>2757235</RelatedRevenueAmt>
+    <TotalRevenueAmt>31559465</TotalRevenueAmt>
+    <ProfitOrLossAmt>33421340</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>733810</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>10317066</TaxesAccruedAmt>
+    <CapitalAmt>11664437</CapitalAmt>
+    <EarningsAmt>23613876</EarningsAmt>
+    <EmployeeCnt>37</EmployeeCnt>
+    <AssetsAmt>2929904</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies SA de CV</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Container Technologies SA de CV</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373247</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Container Technologies SA de CV was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN21">
+            <TaxJurisdictionCountryCd>NL</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>0</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>0</RelatedRevenueAmt>
+    <TotalRevenueAmt>0</TotalRevenueAmt>
+    <ProfitOrLossAmt>315293</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>0</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-111489</EarningsAmt>
+    <EmployeeCnt>0</EmployeeCnt>
+    <AssetsAmt>0</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies France SAS Netherland Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Applied Technologies France SAS Netherlands Branch sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN22">
+            <TaxJurisdictionCountryCd>NZ</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>464812</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>66773</RelatedRevenueAmt>
+    <TotalRevenueAmt>531585</TotalRevenueAmt>
+    <ProfitOrLossAmt>270750</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>4706</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>56832</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>2961757</EarningsAmt>
+    <EmployeeCnt>0</EmployeeCnt>
+    <AssetsAmt>56083</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP (New Zealand) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN23">
+            <TaxJurisdictionCountryCd>PM</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>100916</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>-2648</RelatedRevenueAmt>
+    <TotalRevenueAmt>98268</TotalRevenueAmt>
+    <ProfitOrLossAmt>-574294</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>0</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-2939148</EarningsAmt>
+    <EmployeeCnt>0</EmployeeCnt>
+    <AssetsAmt>0</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>WR Grace (Panama) SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN24">
+            <TaxJurisdictionCountryCd>PE</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>6470854</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>11213</RelatedRevenueAmt>
+    <TotalRevenueAmt>6482067</TotalRevenueAmt>
+    <ProfitOrLossAmt>-1347506</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>62839</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-458814</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>398656</EarningsAmt>
+    <EmployeeCnt>2</EmployeeCnt>
+    <AssetsAmt>1189990</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP International Inc Sucursal del Peru</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP International Inc Sucursal del Peru sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN25">
+            <TaxJurisdictionCountryCd>RP</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>8215684</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>4683184</RelatedRevenueAmt>
+    <TotalRevenueAmt>12898868</TotalRevenueAmt>
+    <ProfitOrLossAmt>1617864</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>191764</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>292151</TaxesAccruedAmt>
+    <CapitalAmt>5445592</CapitalAmt>
+    <EarningsAmt>8959875</EarningsAmt>
+    <EmployeeCnt>96</EmployeeCnt>
+    <AssetsAmt>958360</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (Philippines) Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Operations Center Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC506</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Products (Philippines) Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Applied Technologies (Philippines) Inc was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN26">
+            <TaxJurisdictionCountryCd>PL</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>386021</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>526247</RelatedRevenueAmt>
+    <TotalRevenueAmt>912268</TotalRevenueAmt>
+    <ProfitOrLossAmt>10384</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>216982</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>4816</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>2010577</EarningsAmt>
+    <EmployeeCnt>8</EmployeeCnt>
+    <AssetsAmt>28106</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP (Poland) Sp z oo</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP (Poland) Sp zoo sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN27">
+            <TaxJurisdictionCountryCd>PO</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>0</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>0</RelatedRevenueAmt>
+    <TotalRevenueAmt>0</TotalRevenueAmt>
+    <ProfitOrLossAmt>-3079</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-647</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-21213</EarningsAmt>
+    <EmployeeCnt>0</EmployeeCnt>
+    <AssetsAmt>0</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Portugal</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN28">
+            <TaxJurisdictionCountryCd>RS</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>821753</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>492434</RelatedRevenueAmt>
+    <TotalRevenueAmt>1314187</TotalRevenueAmt>
+    <ProfitOrLossAmt>14606</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>10794</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>5715</TaxesAccruedAmt>
+    <CapitalAmt>1142847</CapitalAmt>
+    <EarningsAmt>813173</EarningsAmt>
+    <EmployeeCnt>1</EmployeeCnt>
+    <AssetsAmt>13720</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Rus LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC506</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>ZAO Grace Kriz</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of ZAO Grace Kris was sold to a third party on July 3, 2017. . GCP Rus LLC sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN29">
+            <TaxJurisdictionCountryCd>SN</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>24353304</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>11912449</RelatedRevenueAmt>
+    <TotalRevenueAmt>36265753</TotalRevenueAmt>
+    <ProfitOrLossAmt>23300551</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>443605</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>536281</TaxesAccruedAmt>
+    <CapitalAmt>1464286</CapitalAmt>
+    <EarningsAmt>4726042</EarningsAmt>
+    <EmployeeCnt>66</EmployeeCnt>
+    <AssetsAmt>7293321</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Asia Pte Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP (Singapore) Private Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP (Singapore) Private Limited sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN30">
+            <TaxJurisdictionCountryCd>SF</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>8477809</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>59791</RelatedRevenueAmt>
+    <TotalRevenueAmt>8537600</TotalRevenueAmt>
+    <ProfitOrLossAmt>1616027</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>235218</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>578118</TaxesAccruedAmt>
+    <CapitalAmt>8040851</CapitalAmt>
+    <EarningsAmt>2533634</EarningsAmt>
+    <EmployeeCnt>15</EmployeeCnt>
+    <AssetsAmt>1038786</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Africa (Pty) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Africa (Pty) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Africa (Pty) Limited was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN31">
+            <TaxJurisdictionCountryCd>SP</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>5591882</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>711439</RelatedRevenueAmt>
+    <TotalRevenueAmt>6303321</TotalRevenueAmt>
+    <ProfitOrLossAmt>-1604159</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-407149</TaxesAccruedAmt>
+    <CapitalAmt>-1052421</CapitalAmt>
+    <EarningsAmt>917045</EarningsAmt>
+    <EmployeeCnt>9</EmployeeCnt>
+    <AssetsAmt>348125</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Technologies S L</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Iberia SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373214</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Construction Materials Spain SL</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Applied Technologies Iberia SA was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN32">
+            <TaxJurisdictionCountryCd>SW</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>4858302</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>336622</RelatedRevenueAmt>
+    <TotalRevenueAmt>5194924</TotalRevenueAmt>
+    <ProfitOrLossAmt>188046</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>21455</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>27179</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>769611</EarningsAmt>
+    <EmployeeCnt>8</EmployeeCnt>
+    <AssetsAmt>189035</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Scandinavia AB (Sweden)</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1063436</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Sweden AB</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1063287</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN33">
+            <TaxJurisdictionCountryCd>SZ</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>1959858</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>0</RelatedRevenueAmt>
+    <TotalRevenueAmt>1959858</TotalRevenueAmt>
+    <ProfitOrLossAmt>83210</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>24629</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-9204</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>431619</EarningsAmt>
+    <EmployeeCnt>3</EmployeeCnt>
+    <AssetsAmt>95377</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef (CH) AG (Switzerland</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Switzerland SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Union Financiere SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN34">
+            <TaxJurisdictionCountryCd>TW</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>522007</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>77143</RelatedRevenueAmt>
+    <TotalRevenueAmt>599150</TotalRevenueAmt>
+    <ProfitOrLossAmt>1037365</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>324134</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-2101135</EarningsAmt>
+    <EmployeeCnt>1</EmployeeCnt>
+    <AssetsAmt>2173</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Taiwan Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Taiwan Inc. sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN35">
+            <TaxJurisdictionCountryCd>TH</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>21633645</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>7572926</RelatedRevenueAmt>
+    <TotalRevenueAmt>29206571</TotalRevenueAmt>
+    <ProfitOrLossAmt>3667875</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>1093552</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>954410</TaxesAccruedAmt>
+    <CapitalAmt>26277</CapitalAmt>
+    <EarningsAmt>14596236</EarningsAmt>
+    <EmployeeCnt>29</EmployeeCnt>
+    <AssetsAmt>2822731</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP (Thailand) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373200</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Holdings (Thailand) Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP (Thailand) Limited was sold to a third party on July 3, 2017 - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN36">
+            <TaxJurisdictionCountryCd>TU</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>32883795</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>241241</RelatedRevenueAmt>
+    <TotalRevenueAmt>33125036</TotalRevenueAmt>
+    <ProfitOrLossAmt>-1556637</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>-97218</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>-225964</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>9687979</EarningsAmt>
+    <EmployeeCnt>45</EmployeeCnt>
+    <AssetsAmt>5763569</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Uygulamal Teknolojiler ve Yapi Kimyasallari ve Ticaret AS</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN37">
+            <TaxJurisdictionCountryCd>UK</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>65071647</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>18205166</RelatedRevenueAmt>
+    <TotalRevenueAmt>83276813</TotalRevenueAmt>
+    <ProfitOrLossAmt>379585672</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>571047</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>1372854</TaxesAccruedAmt>
+    <CapitalAmt>-47340277</CapitalAmt>
+    <EarningsAmt>36718252</EarningsAmt>
+    <EmployeeCnt>170</EmployeeCnt>
+    <AssetsAmt>14981952</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>DAREX UK Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>98-1373236</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef UK Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP International Holdings (UK) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP (UK) Holdings Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC506</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies (UK) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Holdings (UK) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Construction Products Holdings (UK) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Products (UK) Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stirling Lloyd Group Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stirling Lloyd Holdings Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stirling Lloyd Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stirling Lloyd Polychem Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stirling Lloyd Products International Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of DAREX UK Limited was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchA">
+            <TaxJurisdictionCountryCd>US</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>547326450</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>83306823</RelatedRevenueAmt>
+    <TotalRevenueAmt>630633273</TotalRevenueAmt>
+    <ProfitOrLossAmt>571215437</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>17176681</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>121160134</TaxesAccruedAmt>
+    <CapitalAmt>29738831</CapitalAmt>
+    <EarningsAmt>-1043248325</EarningsAmt>
+    <EmployeeCnt>778</EmployeeCnt>
+    <AssetsAmt>193072390</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>AP Chem Incorporated</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>52-2028361</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Construction Products Dubai Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>65-0456165</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Darex Puerto Rico Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>13-2830236</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Darex Puerto Rico Inc (Domican Republic)-Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>DC Designs LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>De Neef Construction Chemicals (US) Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>76-0312795</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Dewey &amp; Almy LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Ductilcrete Technologies LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Europe Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Applied Technologies Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>47-3936076</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Chemicals Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>13-3614662</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Europe Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>13-2671485</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP International Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>47-4611772</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Halex Corporation</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>56-2281889</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Halex Flooring Corporation</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>45-2569118</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Hanover Square Corporation</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>13-6112817</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC512</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Stirling Lloyd Products Inc</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>06-1295841</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Verifi LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>26-3465277</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Water Street Corporation</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>13-6152056</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC511</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>GCP Applied Technologies, Inc. sold its Darex-related assets and liabilities to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN39">
+            <TaxJurisdictionCountryCd>AE</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>35570517</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>2659930</RelatedRevenueAmt>
+    <TotalRevenueAmt>38230447</TotalRevenueAmt>
+    <ProfitOrLossAmt>-168</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>0</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>0</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>3872198</EarningsAmt>
+    <EmployeeCnt>59</EmployeeCnt>
+    <AssetsAmt>8795428</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>Emirates Chemicals LLC</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+            <CBCBusinessActivityCd>CBC505</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN40">
+            <TaxJurisdictionCountryCd>VE</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>9276668</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>0</RelatedRevenueAmt>
+    <TotalRevenueAmt>9276668</TotalRevenueAmt>
+    <ProfitOrLossAmt>-14754555</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>147302</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>1140270</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>-754919</EarningsAmt>
+    <EmployeeCnt>53</EmployeeCnt>
+    <AssetsAmt>12</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Technologies Venezuela SA</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+                <CBCAdditionalInfoGrp>
+                  <AdditionalInformationTxt>The stock of GCP Technologies Venezuela SA was sold to a third party on July 3, 2017. - Tax Jurisdiction</AdditionalInformationTxt>
+                </CBCAdditionalInfoGrp>
+        <CBCAdditionalInfoGrp>
+                      </CBCAdditionalInfoGrp>
+      </IRS8975ScheduleA>
+        <IRS8975ScheduleA documentId="IRS8975SchAN41">
+            <TaxJurisdictionCountryCd>VM</TaxJurisdictionCountryCd>
+        <UnrelatedRevenueAmt>27525232</UnrelatedRevenueAmt>
+    <RelatedRevenueAmt>127136</RelatedRevenueAmt>
+    <TotalRevenueAmt>27652368</TotalRevenueAmt>
+    <ProfitOrLossAmt>9783259</ProfitOrLossAmt>
+    <TotalTaxesPaidAmt>1588424</TotalTaxesPaidAmt>
+    <TaxesAccruedAmt>1429788</TaxesAccruedAmt>
+    <CapitalAmt>0</CapitalAmt>
+    <EarningsAmt>16951652</EarningsAmt>
+    <EmployeeCnt>23</EmployeeCnt>
+    <AssetsAmt>2937976</AssetsAmt>
+            <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Vietnam Company Limited</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+        <ConstituentEntityInfoGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>GCP Vietnam Company Limited Hai Duong Branch</BusinessNameLine1Txt>
+              </BusinessName>
+                        <TaxJurisdictionTIN>NOTIN</TaxJurisdictionTIN>
+                                    <CBCBusinessActivityCd>CBC504</CBCBusinessActivityCd>
+                </ConstituentEntityInfoGrp>
+              </IRS8975ScheduleA>
+        </ReturnData>
+</Return>
