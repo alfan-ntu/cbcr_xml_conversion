@@ -2,10 +2,24 @@ import biz_activity_code
 import xml.etree.ElementTree as ET
 import sys
 import pdb
+import xlsx_writer
+
 
 class cbcr_parser():
     def __init__(self):
+
+        tree = ET.parse('cbcr_gcp.xml')
+        self.root = tree.getroot()
+        print(self.root.tag, self.root.attrib)
+        self.initialize_table1()
+        self.parser_for_table1()
+
+#        self.initialize_table2()
+#        self.parser_for_table2()
+
+    def initialize_table1(self):
         # initializing column lists of table1
+        self.spread_sheet_table1 = []
         self.tax_jurisdiction = []
         self.unrelated_party_revenue = []
         self.related_party_revenue = []
@@ -18,12 +32,9 @@ class cbcr_parser():
         self.no_of_employee = []
         self.tangible_assets = []
 
-        tree = ET.parse('cbcr_gcp.xml')
-        self.root = tree.getroot()
-        print(self.root.tag, self.root.attrib)
-#        self.parser_for_table1()
-
+    def initialize_table2(self):
         # initializing column lists of table2
+        self.spread_sheet_table2 = []
         self.tax_jurisdiction = []
         self.constituent_entity = []
         self.org_jurisdiction = []          # jurisdiction other than residence
@@ -41,13 +52,11 @@ class cbcr_parser():
         self.cbc512_activity = []           # Dormant
         self.cbc513_activity = []           # Other
 
-        self.parser_for_table2()
-
     def parser_for_table1(self):
-        schedule_count = 0
+        self.schedule_count = 0
         for child in self.root:
             for schedule in child.findall('{http://www.irs.gov/efile}IRS8975ScheduleA'):
-                schedule_count += 1
+                self.schedule_count += 1
                 irs8975attrib = schedule.attrib
                 print("Schedule:", irs8975attrib)
                 for jurisdiction in schedule.findall('{http://www.irs.gov/efile}TaxJurisdictionCountryCd'):
@@ -84,8 +93,15 @@ class cbcr_parser():
                     print("\tassetAmt:", assetAmt.text)
                     self.tangible_assets.append(assetAmt.text)
 
-        print("Schedule count:", schedule_count)
+        print("Schedule count:", self.schedule_count)
+        self.export_table1()
 
+    def export_table1(self):
+        xls2excel = xlsx_writer.XML_To_EXCEL()
+        # pdb.set_trace()
+        xls2excel.set_table1(self.tax_jurisdiction, self.no_of_employee)
+        xls2excel.set_schedule_count(self.schedule_count)
+        xls2excel.display_table1()
 
     def parser_for_table2(self):
         schedule_count = 0
@@ -117,7 +133,7 @@ class cbcr_parser():
                             self.org_jurisdiction.append("")
                             self.activity_switch(bz_activity.text)
 
-        pdb.set_trace()
+#        pdb.set_trace()
         print("Entity count:", entity_count)
 
     def init_bz_activity_lists(self):
