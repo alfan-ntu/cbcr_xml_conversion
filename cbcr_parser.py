@@ -18,6 +18,7 @@ class cbcr_parser():
         self.initialize_table2()
         self.parser_for_table2()
 
+        self.xls2excel.close_excel_workbook()
 
     def initialize_table1(self):
         # initializing column lists of table1
@@ -169,7 +170,7 @@ class cbcr_parser():
 #        pdb.set_trace()
         self.xls2excel.display_table2()
         self.xls2excel.excel_output_table2()
-        self.xls2excel.close_excel_workbook()
+#        self.xls2excel.close_excel_workbook()
 
     def init_bz_activity_lists(self):
         self.cbc501_activity.append("")

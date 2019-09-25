@@ -1,5 +1,6 @@
 import xlsxwriter
 import pdb
+import constant
 
 
 class XML_To_EXCEL():
@@ -8,8 +9,29 @@ class XML_To_EXCEL():
         self.no_of_employee = []
         self.schedule_count = 0
         self.workbook = xlsxwriter.Workbook("cbcr_excel.xlsx")
-        self.worksheet1 = self.workbook.add_worksheet("表1")
-        self.worksheet2 = self.workbook.add_worksheet("表2")
+        # initialized worksheet of table 1
+        self.worksheet1 = self.workbook.add_worksheet("所得稅負營運表")
+        self.worksheet1.set_column(0, \
+                        constant.TABLE1_NUMBER_OF_COLUMN-1, \
+                        constant.TABLE1_COLUMN_WIDTH)
+        self.header_format = self.workbook.add_format()
+        self.header_format.set_align("center")
+        self.header_format.set_align("vcenter")
+        self.header_format.set_text_wrap()
+        # initialized worksheet of table 2
+        self.worksheet2 = self.workbook.add_worksheet("成員集合名單")
+        self.worksheet2.set_column(0, \
+                        constant.TABLE2_NUMBER_OF_COLUMN-1, \
+                        constant.TABLE2_COLUMN_WIDTH)
+        self.worksheet2.set_column(1, 1, constant.TABLE2_COLUMN_WIDTH+35)
+        self.corp_name_format = self.workbook.add_format()
+        self.corp_name_format.set_align("left")
+        self.corp_name_format.set_text_wrap()
+        self.tax_jurisdiction_format = self.workbook.add_format()
+        self.tax_jurisdiction_format.set_align("vcenter")
+        self.bz_activity_format = self.workbook.add_format()
+        self.bz_activity_format.set_align("center")
+        self.bz_activity_format.set_align("vcenter")
 
     def set_table1(self, \
                     tax_jurisdiction, \
@@ -57,18 +79,29 @@ class XML_To_EXCEL():
 
     def excel_output_table1(self):
         row = 0; col = 0
+        self.worksheet1.write(row, col,    "租稅管轄區", self.header_format)
+        self.worksheet1.write(row, col+1,  "非關係人收入", self.header_format)
+        self.worksheet1.write(row, col+2,  "關係人收入", self.header_format)
+        self.worksheet1.write(row, col+3,  "收入合計", self.header_format)
+        self.worksheet1.write(row, col+4,  "所得稅前損益", self.header_format)
+        self.worksheet1.write(row, col+5,  "已納所得稅", self.header_format)
+        self.worksheet1.write(row, col+6,  "當期應付所得稅", self.header_format)
+        self.worksheet1.write(row, col+7,  "實收資本額", self.header_format)
+        self.worksheet1.write(row, col+8,  "累積盈餘", self.header_format)
+        self.worksheet1.write(row, col+9,  "員工人數", self.header_format)
+        self.worksheet1.write(row, col+10, "有形資產", self.header_format)
         for row in range(0, self.schedule_count):
-            self.worksheet1.write(row, col, self.tax_jurisdiction[row])
-            self.worksheet1.write(row, col+1, self.unrelated_party_revenue[row])
-            self.worksheet1.write(row, col+2, self.related_party_revenue[row])
-            self.worksheet1.write(row, col+3, self.total_revenue[row])
-            self.worksheet1.write(row, col+4, self.profit_before_tax[row])
-            self.worksheet1.write(row, col+5, self.income_tax_paid[row])
-            self.worksheet1.write(row, col+6, self.income_tax_accrued[row])
-            self.worksheet1.write(row, col+7, self.stated_capital[row])
-            self.worksheet1.write(row, col+8, self.accumulated_earning[row])
-            self.worksheet1.write(row, col+9, self.no_of_employee[row])
-            self.worksheet1.write(row, col+10, self.tangible_assets[row])
+            self.worksheet1.write(row+1, col, self.tax_jurisdiction[row])
+            self.worksheet1.write_number(row+1, col+1, int(self.unrelated_party_revenue[row]))
+            self.worksheet1.write_number(row+1, col+2, int(self.related_party_revenue[row]))
+            self.worksheet1.write_number(row+1, col+3, int(self.total_revenue[row]))
+            self.worksheet1.write_number(row+1, col+4, int(self.profit_before_tax[row]))
+            self.worksheet1.write_number(row+1, col+5, int(self.income_tax_paid[row]))
+            self.worksheet1.write_number(row+1, col+6, int(self.income_tax_accrued[row]))
+            self.worksheet1.write_number(row+1, col+7, int(self.stated_capital[row]))
+            self.worksheet1.write_number(row+1, col+8, int(self.accumulated_earning[row]))
+            self.worksheet1.write_number(row+1, col+9, int(self.no_of_employee[row]))
+            self.worksheet1.write_number(row+1, col+10, int(self.tangible_assets[row]))
             row += 1
 
     def set_table2(self, \
@@ -132,23 +165,39 @@ class XML_To_EXCEL():
 
     def excel_output_table2(self):
         row = 0; col = 0
+        self.worksheet2.write(row, col,    "租稅管轄區", self.header_format)
+        self.worksheet2.write(row, col+1,  "國別報告成員", self.header_format)
+        self.worksheet2.write(row, col+2,  "成員設立地", self.header_format)
+        self.worksheet2.write(row, col+3,  "研究發展", self.header_format)
+        self.worksheet2.write(row, col+4,  "智產權管理", self.header_format)
+        self.worksheet2.write(row, col+5,  "採購", self.header_format)
+        self.worksheet2.write(row, col+6,  "製造或生產", self.header_format)
+        self.worksheet2.write(row, col+7,  "銷售行銷", self.header_format)
+        self.worksheet2.write(row, col+8,  "行政管理或支援", self.header_format)
+        self.worksheet2.write(row, col+9,  "對非關係人服務", self.header_format)
+        self.worksheet2.write(row, col+10, "內部融資", self.header_format)
+        self.worksheet2.write(row, col+11, "金融服務", self.header_format)
+        self.worksheet2.write(row, col+12, "保險", self.header_format)
+        self.worksheet2.write(row, col+13, "股份持有", self.header_format)
+        self.worksheet2.write(row, col+14, "停業", self.header_format)
+        self.worksheet2.write(row, col+15, "其他", self.header_format)
         for row in range(0, self.entity_count):
-            self.worksheet2.write(row, col, self.tax_jurisdiction[row])
-            self.worksheet2.write(row, col+1, self.constituent_entity[row])
-            self.worksheet2.write(row, col+2, self.org_jurisdiction[row])
-            self.worksheet2.write(row, col+3, self.cbc501_activity[row])
-            self.worksheet2.write(row, col+4, self.cbc502_activity[row])
-            self.worksheet2.write(row, col+5, self.cbc503_activity[row])
-            self.worksheet2.write(row, col+6, self.cbc504_activity[row])
-            self.worksheet2.write(row, col+7, self.cbc505_activity[row])
-            self.worksheet2.write(row, col+8, self.cbc506_activity[row])
-            self.worksheet2.write(row, col+9, self.cbc507_activity[row])
-            self.worksheet2.write(row, col+10, self.cbc508_activity[row])
-            self.worksheet2.write(row, col+11, self.cbc509_activity[row])
-            self.worksheet2.write(row, col+12, self.cbc510_activity[row])
-            self.worksheet2.write(row, col+13, self.cbc511_activity[row])
-            self.worksheet2.write(row, col+14, self.cbc512_activity[row])
-            self.worksheet2.write(row, col+15, self.cbc513_activity[row])
+            self.worksheet2.write(row+1, col, self.tax_jurisdiction[row], self.tax_jurisdiction_format)
+            self.worksheet2.write(row+1, col+1, self.constituent_entity[row], self.corp_name_format)
+            self.worksheet2.write(row+1, col+2, self.org_jurisdiction[row])
+            self.worksheet2.write(row+1, col+3, self.cbc501_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+4, self.cbc502_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+5, self.cbc503_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+6, self.cbc504_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+7, self.cbc505_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+8, self.cbc506_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+9, self.cbc507_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+10, self.cbc508_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+11, self.cbc509_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+12, self.cbc510_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+13, self.cbc511_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+14, self.cbc512_activity[row], self.bz_activity_format)
+            self.worksheet2.write(row+1, col+15, self.cbc513_activity[row], self.bz_activity_format)
 
     def close_excel_workbook(self):
         self.workbook.close()
