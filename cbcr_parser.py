@@ -11,15 +11,16 @@ class cbcr_parser():
         tree = ET.parse('cbcr_gcp.xml')
         self.root = tree.getroot()
         print(self.root.tag, self.root.attrib)
+        self.xls2excel = xlsx_writer.XML_To_EXCEL()
         self.initialize_table1()
         self.parser_for_table1()
 
-#        self.initialize_table2()
-#        self.parser_for_table2()
+        self.initialize_table2()
+        self.parser_for_table2()
+
 
     def initialize_table1(self):
         # initializing column lists of table1
-        self.spread_sheet_table1 = []
         self.tax_jurisdiction = []
         self.unrelated_party_revenue = []
         self.related_party_revenue = []
@@ -34,7 +35,6 @@ class cbcr_parser():
 
     def initialize_table2(self):
         # initializing column lists of table2
-        self.spread_sheet_table2 = []
         self.tax_jurisdiction = []
         self.constituent_entity = []
         self.org_jurisdiction = []          # jurisdiction other than residence
@@ -60,53 +60,62 @@ class cbcr_parser():
                 irs8975attrib = schedule.attrib
                 print("Schedule:", irs8975attrib)
                 for jurisdiction in schedule.findall('{http://www.irs.gov/efile}TaxJurisdictionCountryCd'):
-                    print("\tcntryCode:", jurisdiction.text)
+                    # print("\tcntryCode:", jurisdiction.text)
                     self.tax_jurisdiction.append(jurisdiction.text)
                 for unrelatedRevenue in schedule.findall('{http://www.irs.gov/efile}UnrelatedRevenueAmt'):
-                    print("\tunrelatedRevenueAmt:", unrelatedRevenue.text)
+                    # print("\tunrelatedRevenueAmt:", unrelatedRevenue.text)
                     self.unrelated_party_revenue.append(unrelatedRevenue.text)
                 for relatedRevenue in schedule.findall('{http://www.irs.gov/efile}RelatedRevenueAmt'):
-                    print("\trelatedRevenueAmt:", relatedRevenue.text)
+                    # print("\trelatedRevenueAmt:", relatedRevenue.text)
                     self.related_party_revenue.append(relatedRevenue.text)
                 for totalRevenue in schedule.findall('{http://www.irs.gov/efile}TotalRevenueAmt'):
-                    print("\ttotalRevenueAmt:", totalRevenue.text)
+                    # print("\ttotalRevenueAmt:", totalRevenue.text)
                     self.total_revenue.append(totalRevenue.text)
                 for profitBeforeTax in schedule.findall('{http://www.irs.gov/efile}ProfitOrLossAmt'):
-                    print("\tprofitLossAmt:", profitBeforeTax.text)
+                    # print("\tprofitLossAmt:", profitBeforeTax.text)
                     self.profit_before_tax.append(profitBeforeTax.text)
                 for incomeTaxPaid in schedule.findall('{http://www.irs.gov/efile}TotalTaxesPaidAmt'):
-                    print("\tincomeTaxPaid:", incomeTaxPaid.text)
+                    # print("\tincomeTaxPaid:", incomeTaxPaid.text)
                     self.income_tax_paid.append(incomeTaxPaid.text)
                 for incomeTaxAccrued in schedule.findall('{http://www.irs.gov/efile}TaxesAccruedAmt'):
-                    print("\tincomeTaxAccrued:", incomeTaxAccrued.text)
+                    # print("\tincomeTaxAccrued:", incomeTaxAccrued.text)
                     self.income_tax_accrued.append(incomeTaxAccrued.text)
                 for statedCapital in schedule.findall('{http://www.irs.gov/efile}CapitalAmt'):
-                    print("\tstatedCapital:", statedCapital.text)
-                    self.income_tax_accrued.append(statedCapital.text)
+                    # print("\tstatedCapital:", statedCapital.text)
+                    self.stated_capital.append(statedCapital.text)
                 for earningAmt in schedule.findall('{http://www.irs.gov/efile}EarningsAmt'):
-                    print("\tearningAmt:", earningAmt.text)
+                    # print("\tearningAmt:", earningAmt.text)
                     self.accumulated_earning.append(earningAmt.text)
                 for employeeCnt in schedule.findall('{http://www.irs.gov/efile}EmployeeCnt'):
-                    print("\temployeeCnt:", employeeCnt.text)
+                    # print("\temployeeCnt:", employeeCnt.text)
                     self.no_of_employee.append(employeeCnt.text)
-                for assetAmt in schedule.findall('{http://www.irs.gov/efile}AssetAmt'):
-                    print("\tassetAmt:", assetAmt.text)
+                for assetAmt in schedule.findall('{http://www.irs.gov/efile}AssetsAmt'):
+                    # print("\tassetAmt:", assetAmt.text)
                     self.tangible_assets.append(assetAmt.text)
 
         print("Schedule count:", self.schedule_count)
         self.export_table1()
 
     def export_table1(self):
-        xls2excel = xlsx_writer.XML_To_EXCEL()
-        # pdb.set_trace()
-        xls2excel.set_table1(self.tax_jurisdiction, self.no_of_employee)
-        xls2excel.set_schedule_count(self.schedule_count)
-        xls2excel.display_table1()
+        self.xls2excel.set_table1(self.tax_jurisdiction, \
+                             self.unrelated_party_revenue, \
+                             self.related_party_revenue, \
+                             self.total_revenue, \
+                             self.profit_before_tax, \
+                             self.income_tax_paid, \
+                             self.income_tax_accrued, \
+                             self.stated_capital, \
+                             self.accumulated_earning, \
+                             self.no_of_employee, \
+                             self.tangible_assets)
+        self.xls2excel.set_schedule_count(self.schedule_count)
+        self.xls2excel.display_table1()
+        self.xls2excel.excel_output_table1()
+#        self.xls2excel.close_excel_workbook()
 
     def parser_for_table2(self):
         schedule_count = 0
-        entity_count = 0
-        row_count = 0
+        self.entity_count = 0
         for child in self.root:
             for schedule in child.findall('{http://www.irs.gov/efile}IRS8975ScheduleA'):
                 schedule_count += 1
@@ -121,20 +130,46 @@ class cbcr_parser():
                         print("\t\tbzName:", bzn_text)
 #                        self.tax_jurisdiction.append(jurisdiction.text)
 #                        self.constituent_entity.append(bzn_text)
-                        entity_count += 1
+                        self.entity_count += 1
                         # definition of CbcBizActivityType is listed in CbcXML_v1.0.1.xsd
                         # e.g. CBC501 is "Research and Development"
+                        self.tax_jurisdiction.append(jurisdiction.text)
+                        self.constituent_entity.append(bzn_text)
+                        self.org_jurisdiction.append("")
                         for bz_activity in const_entity_info.findall('{http://www.irs.gov/efile}CBCBusinessActivityCd'):
                             # print("\t\t\tactivityCode:", bz_activity.text)
                             # create a new row
                             self.init_bz_activity_lists()
-                            self.tax_jurisdiction.append(jurisdiction.text)
-                            self.constituent_entity.append(bzn_text)
-                            self.org_jurisdiction.append("")
                             self.activity_switch(bz_activity.text)
 
+        print("Entity count:", self.entity_count)
+        self.export_table2()
+
+    def export_table2(self):
+        self.xls2excel.set_table2(\
+            self.tax_jurisdiction, \
+            self.constituent_entity, \
+            self.org_jurisdiction, \
+            self.cbc501_activity, \
+            self.cbc502_activity, \
+            self.cbc503_activity, \
+            self.cbc504_activity, \
+            self.cbc505_activity, \
+            self.cbc506_activity, \
+            self.cbc507_activity, \
+            self.cbc508_activity, \
+            self.cbc509_activity, \
+            self.cbc510_activity, \
+            self.cbc511_activity, \
+            self.cbc512_activity, \
+            self.cbc513_activity
+        )
+        # each business entity may have more than one business activity codes
+        self.xls2excel.set_entity_count(self.entity_count)
 #        pdb.set_trace()
-        print("Entity count:", entity_count)
+        self.xls2excel.display_table2()
+        self.xls2excel.excel_output_table2()
+        self.xls2excel.close_excel_workbook()
 
     def init_bz_activity_lists(self):
         self.cbc501_activity.append("")
@@ -172,56 +207,56 @@ class cbcr_parser():
         func()
 
     def cbc501(self):
-        print("\t\tcbc501 of lenght:", len(self.cbc501_activity))
-        self.cbc501_activity[len(self.cbc501_activity)-1]="V"
+        print("\t\tcbc501 of lenght:", self.entity_count)
+        self.cbc501_activity[self.entity_count-1]="V"
 
     def cbc502(self):
-        print("\t\tcbc502 of lenght:", len(self.cbc502_activity))
-        self.cbc502_activity[len(self.cbc502_activity)-1]="V"
+        print("\t\tcbc502 of lenght:", self.entity_count)
+        self.cbc502_activity[self.entity_count-1]="V"
 
     def cbc503(self):
-        print("\t\tcbc503 of lenght:", len(self.cbc503_activity))
-        self.cbc503_activity[len(self.cbc503_activity)-1]="V"
+        print("\t\tcbc503 of lenght:", self.entity_count)
+        self.cbc503_activity[self.entity_count-1]="V"
 
     def cbc504(self):
-        print("\t\tcbc504 of lenght:", len(self.cbc504_activity))
-        self.cbc504_activity[len(self.cbc504_activity)-1]="V"
+        print("\t\tcbc504 of lenght:", self.entity_count)
+        self.cbc504_activity[self.entity_count-1]="V"
 
     def cbc505(self):
-        print("\t\tcbc505 of lenght:", len(self.cbc505_activity))
-        self.cbc505_activity[len(self.cbc505_activity)-1]="V"
+        print("\t\tcbc505 of lenght:", self.entity_count)
+        self.cbc505_activity[self.entity_count-1]="V"
 
     def cbc506(self):
-        print("\t\tcbc506 of lenght:", len(self.cbc506_activity))
-        self.cbc506_activity[len(self.cbc506_activity)-1]="V"
+        print("\t\tcbc506 of lenght:", self.entity_count)
+        self.cbc506_activity[self.entity_count-1]="V"
 
     def cbc507(self):
-        print("\t\tcbc507 of lenght:", len(self.cbc507_activity))
-        self.cbc507_activity[len(self.cbc507_activity)-1]="V"
+        print("\t\tcbc507 of lenght:", self.entity_count)
+        self.cbc507_activity[self.entity_count-1]="V"
 
     def cbc508(self):
-        print("\t\tcbc508 of lenght:", len(self.cbc508_activity))
-        self.cbc508_activity[len(self.cbc508_activity)-1]="V"
+        print("\t\tcbc508 of lenght:", self.entity_count)
+        self.cbc508_activity[self.entity_count-1]="V"
 
     def cbc509(self):
-        print("\t\tcbc509 of lenght:", len(self.cbc509_activity))
-        self.cbc509_activity[len(self.cbc509_activity)-1]="V"
+        print("\t\tcbc509 of lenght:", self.entity_count)
+        self.cbc509_activity[self.entity_count-1]="V"
 
     def cbc510(self):
-        print("\t\tcbc510 of lenght:", len(self.cbc510_activity))
-        self.cbc510_activity[len(self.cbc510_activity)-1]="V"
+        print("\t\tcbc510 of lenght:", self.entity_count)
+        self.cbc510_activity[self.entity_count-1]="V"
 
     def cbc511(self):
-        print("\t\tcbc511 of lenght:", len(self.cbc511_activity))
-        self.cbc511_activity[len(self.cbc511_activity)-1]="V"
+        print("\t\tcbc511 of lenght:", self.entity_count)
+        self.cbc511_activity[self.entity_count-1]="V"
 
     def cbc512(self):
-        print("\t\tcbc512 of lenght:", len(self.cbc512_activity))
-        self.cbc512_activity[len(self.cbc512_activity)-1]="V"
+        print("\t\tcbc512 of lenght:", self.entity_count)
+        self.cbc512_activity[self.entity_count-1]="V"
 
     def cbc513(self):
-        print("\t\tcbc513 of lenght:", len(self.cbc513_activity))
-        self.cbc513_activity[len(self.cbc513_activity)-1]="V"
+        print("\t\tcbc513 of lenght:", self.entity_count)
+        self.cbc513_activity[self.entity_count-1]="V"
 
 
 if __name__ == "__main__":
