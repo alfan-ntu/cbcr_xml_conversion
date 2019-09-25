@@ -37,7 +37,7 @@ class XML_To_EXCEL():
 
     def set_schedule_count(self, schedule_count):
         self.schedule_count = schedule_count
-        print("Number of schedule count in set_schedule_count:", self.schedule_count)
+#        print("Number of schedule count in set_schedule_count:", self.schedule_count)
 
     def display_table1(self):
         i = 0
